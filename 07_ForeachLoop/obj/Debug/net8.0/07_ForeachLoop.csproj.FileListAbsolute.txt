@@ -1,0 +1,14 @@
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\bin\Debug\net8.0\07_ForeachLoop.exe
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\bin\Debug\net8.0\07_ForeachLoop.deps.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\bin\Debug\net8.0\07_ForeachLoop.runtimeconfig.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\bin\Debug\net8.0\07_ForeachLoop.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\bin\Debug\net8.0\07_ForeachLoop.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\07_ForeachLoop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\07_ForeachLoop.AssemblyInfoInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\07_ForeachLoop.AssemblyInfo.cs
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\07_ForeachLoop.csproj.CoreCompileInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\07_ForeachLoop.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\refint\07_ForeachLoop.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\07_ForeachLoop.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\07_ForeachLoop.genruntimeconfig.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\07_ForeachLoop\obj\Debug\net8.0\ref\07_ForeachLoop.dll

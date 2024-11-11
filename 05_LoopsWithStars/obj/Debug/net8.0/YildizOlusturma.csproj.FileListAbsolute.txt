@@ -1,0 +1,14 @@
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\YildizOlusturma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\YildizOlusturma.AssemblyInfoInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\YildizOlusturma.AssemblyInfo.cs
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\YildizOlusturma.csproj.CoreCompileInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\bin\Debug\net8.0\YildizOlusturma.exe
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\bin\Debug\net8.0\YildizOlusturma.deps.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\bin\Debug\net8.0\YildizOlusturma.runtimeconfig.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\bin\Debug\net8.0\YildizOlusturma.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\bin\Debug\net8.0\YildizOlusturma.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\YildizOlusturma.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\refint\YildizOlusturma.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\YildizOlusturma.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\YildizOlusturma.genruntimeconfig.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\YildizOlusturma\obj\Debug\net8.0\ref\YildizOlusturma.dll

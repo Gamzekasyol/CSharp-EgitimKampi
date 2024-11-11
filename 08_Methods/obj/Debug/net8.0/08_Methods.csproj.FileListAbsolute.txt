@@ -1,0 +1,14 @@
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\bin\Debug\net8.0\08_Methods.exe
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\bin\Debug\net8.0\08_Methods.deps.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\bin\Debug\net8.0\08_Methods.runtimeconfig.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\bin\Debug\net8.0\08_Methods.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\bin\Debug\net8.0\08_Methods.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\08_Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\08_Methods.AssemblyInfoInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\08_Methods.AssemblyInfo.cs
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\08_Methods.csproj.CoreCompileInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\08_Methods.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\refint\08_Methods.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\08_Methods.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\08_Methods.genruntimeconfig.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\08_Methods\obj\Debug\net8.0\ref\08_Methods.dll

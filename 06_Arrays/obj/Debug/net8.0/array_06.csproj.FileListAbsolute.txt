@@ -1,0 +1,14 @@
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\bin\Debug\net8.0\array_06.exe
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\bin\Debug\net8.0\array_06.deps.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\bin\Debug\net8.0\array_06.runtimeconfig.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\bin\Debug\net8.0\array_06.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\bin\Debug\net8.0\array_06.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\array_06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\array_06.AssemblyInfoInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\array_06.AssemblyInfo.cs
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\array_06.csproj.CoreCompileInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\array_06.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\refint\array_06.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\array_06.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\array_06.genruntimeconfig.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\array_06\obj\Debug\net8.0\ref\array_06.dll

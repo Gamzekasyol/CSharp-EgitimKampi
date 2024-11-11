@@ -1,0 +1,14 @@
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\bin\Debug\net8.0\01_Main_Subjects.exe
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\bin\Debug\net8.0\01_Main_Subjects.deps.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\bin\Debug\net8.0\01_Main_Subjects.runtimeconfig.json
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\bin\Debug\net8.0\01_Main_Subjects.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\bin\Debug\net8.0\01_Main_Subjects.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\01_Main_Subjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\01_Main_Subjects.AssemblyInfoInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\01_Main_Subjects.AssemblyInfo.cs
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\01_Main_Subjects.csproj.CoreCompileInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\01_Main_Subjects.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\refint\01_Main_Subjects.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\01_Main_Subjects.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\01_Main_Subjects.genruntimeconfig.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\01_Main_Subjects\obj\Debug\net8.0\ref\01_Main_Subjects.dll
