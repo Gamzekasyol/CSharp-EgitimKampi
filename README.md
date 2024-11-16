@@ -26,6 +26,9 @@ Foreach döngü yapısı nasıl kurulur ve kullanılır gördük. Sınıftaki ö
 ## 📍Proje 8
 Metodlar konusu işlendi. Yazılan kodların tekrar kullanılabilir hale getirilmesi anlatıldı, geri değer dödüren ve döndürmeyen metodlar görüldü.
 
+## 📍Proje 9
+Database işlemleri gerçekleştirildi. MsSql veri tabanında bir veri seti hazırlandı ve proje, bu veri tabanına bağlanarak veriler ekranda gösterildi.
+
 
 
 
