@@ -15,7 +15,7 @@ Karar yapıları ile ilgili pratikler yapıldı. If-Else kullanrak farklı koşu
 Döngüler konusunda uygulamalar yapıldı. Farklı döngü yapıları ile farklı senaryolarda nasıl çözümler oluşturulabileceği ile ilgili pratikler yapıldı.
 
 ## 📍Proje 5
-Döngü yaıları ile oluşturulabilecek şekiller üzerine uygulamalar yapıldı.
+Döngü yapıları ile oluşturulabilecek şekiller üzerine uygulamalar yapıldı.
 
 ## 📍Proje 6
 Diziler konusunda pratikler yapıldı. Dizilerin nasıl tanımlanacağı, değerlerin nasıl ilenebileceği, kullanıcıdan nasıl alınabileceği konuları işlendi.
@@ -28,6 +28,12 @@ Metodlar konusu işlendi. Yazılan kodların tekrar kullanılabilir hale getiril
 
 ## 📍Proje 9
 Database işlemleri gerçekleştirildi. MsSql veri tabanında bir veri seti hazırlandı ve proje, bu veri tabanına bağlanarak veriler ekranda gösterildi.
+
+## 📍Proje 10
+Visual studio ortamında MsSql veri tabanına bağlanarak Crud işlemleri gerçekleştirldi.
+
+## 📍Proje 11
+Bu projeyle birlikte 301 modülüne geçiş yapıldı ve bu kapsamda **Code First yapısı** ile **N katmanlı mimari** detaylı bir şekilde ele alındı. Ayrıca, **class yapıları** açıklanarak, **SOLID prensipleri** üzerinde duruldu ve **erişim belirleyiciler** hakkında önemli bilgiler aktarıldı.
 
 
 
