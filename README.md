@@ -35,6 +35,7 @@ Visual studio ortamında MsSql veri tabanına bağlanarak Crud işlemleri gerçe
 ## 📍Proje 11
 Bu projeyle birlikte 301 modülüne geçiş yapıldı ve bu kapsamda **Code First yapısı** ile **N katmanlı mimari** detaylı bir şekilde ele alındı. Ayrıca, **class yapıları** açıklanarak, **SOLID prensipleri** üzerinde duruldu ve **erişim belirleyiciler** hakkında önemli bilgiler aktarıldı.
 
-
+## 📍Proje 12 
+Yukarıda 11. proje üzerine uygulanan yeni konulardır.Bu konular; **Cod First** yapısı çerçevesi ile **Entity Layer'da** tablolar arası ilişkiler kodda  nasıl oluşturulur, **Access Layer'da** veri tabanındaki tabloların nasıl oluşturulduğunu ve **app.config'e** veri tabanının erişim adresinin nasıl eklendiğini gördük.
 
 
