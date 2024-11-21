@@ -38,4 +38,10 @@ Bu projeyle birlikte 301 modülüne geçiş yapıldı ve bu kapsamda **Code Firs
 ## 📍Proje 12 
 Yukarıda 11. proje üzerine uygulanan yeni konulardır.Bu konular; **Cod First** yapısı çerçevesi ile **Entity Layer'da** tablolar arası ilişkiler kodda  nasıl oluşturulur, **Access Layer'da** veri tabanındaki tabloların nasıl oluşturulduğunu ve **app.config'e** veri tabanının erişim adresinin nasıl eklendiğini gördük.
 
+## 📍Proje 13
+13. derste işlenen konular 11 numaralı projenin içindedir. **enable-migrations** ve **update-database** komutlarını kullnarak Sql'de Code First yaklaşımı ile tablo oluşturduk. **Data Access Layer** altında **Abstract** klasörü oluşturduk. Bu klasörde **Crud** işlemlerini gerçekleştirmek için **Repository** tasarım desenini kullandık böylece merkezileştirilmiş bir yapı ile her entitiy için crud işlemi yazmak yerine hepsini bir yere bağladık.
+
+## 📍Proje 14
+Bu projede **Entity Framework** uygulaması yapıldı. Konu anlatılırken **ORM** nedir, **entity framework** nedir açılandı, **Ado.Net** ile olan farklarından, avantajlarından, dezavantajlarından bahsedildi. Projede **Database First** yaklaşımı kullanılarak windows form uygulaması ile database'in nasıl bağlanılacağı gösterildi.   
+
 
