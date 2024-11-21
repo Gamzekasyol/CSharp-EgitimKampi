@@ -15,5 +15,6 @@ namespace CSahrpEgitimKampi301_EntityLayer.Concrete
         public string CustomerCity {  get; set; }
 
         public List<Order> Orders { get; set; }
+        public bool CustomerStatus {  get; set; }
     }
 }

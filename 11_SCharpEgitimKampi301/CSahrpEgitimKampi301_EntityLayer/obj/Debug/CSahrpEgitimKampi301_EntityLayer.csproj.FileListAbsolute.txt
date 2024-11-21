@@ -1,0 +1,12 @@
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\bin\Debug\CSahrpEgitimKampi301_EntityLayer.dll.config
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\bin\Debug\CSahrpEgitimKampi301_EntityLayer.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\bin\Debug\CSahrpEgitimKampi301_EntityLayer.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\obj\Debug\CSahrpEgitimKampi301_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\obj\Debug\CSahrpEgitimKampi301_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\obj\Debug\CSahrpEgitimKampi301_EntityLayer.csproj.CopyComplete
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\obj\Debug\CSahrpEgitimKampi301_EntityLayer.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\11_SCharpEgitimKampi301\CSahrpEgitimKampi301_EntityLayer\obj\Debug\CSahrpEgitimKampi301_EntityLayer.pdb
