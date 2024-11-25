@@ -14,8 +14,17 @@ namespace CSharpEgitimKampi301_EntityFramework_Project
     
     public partial class tbl_Guide
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public tbl_Guide()
+        {
+            this.tbl_Location = new HashSet<tbl_Location>();
+        }
+    
         public int GuideId { get; set; }
         public string GuideName { get; set; }
         public string GuideSurname { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<tbl_Location> tbl_Location { get; set; }
     }
 }

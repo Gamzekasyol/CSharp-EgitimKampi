@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="EgitimKampi_EFTravelDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="EgitimKampi_EFTravelDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="sysdiagrams">
           <Key>
             <PropertyRef Name="diagram_id" />
@@ -22,6 +22,7 @@
           <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="CustomerName" Type="nvarchar" MaxLength="50" />
           <Property Name="CustomerSurname" Type="nvarchar" MaxLength="50" />
+          <Property Name="CustomerBalance" Type="decimal" Precision="18" Scale="2" />
         </EntityType>
         <EntityType Name="tbl_Guide">
           <Key>
@@ -41,15 +42,31 @@
           <Property Name="Capacity" Type="tinyint" />
           <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
           <Property Name="DayNight" Type="nvarchar" MaxLength="50" />
+          <Property Name="GuideId" Type="int" Nullable="false" />
         </EntityType>
+        <Association Name="FK_tbl_Location_tbl_Guide">
+          <End Role="tbl_Guide" Type="Self.tbl_Guide" Multiplicity="1" />
+          <End Role="tbl_Location" Type="Self.tbl_Location" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_Guide">
+              <PropertyRef Name="GuideId" />
+            </Principal>
+            <Dependent Role="tbl_Location">
+              <PropertyRef Name="GuideId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="EgitimKampi_EFTravelDbModelStoreContainer">
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tbl_Customer" EntityType="Self.tbl_Customer" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tbl_Guide" EntityType="Self.tbl_Guide" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tbl_Location" EntityType="Self.tbl_Location" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_tbl_Location_tbl_Guide" Association="Self.FK_tbl_Location_tbl_Guide">
+            <End Role="tbl_Guide" EntitySet="tbl_Guide" />
+            <End Role="tbl_Location" EntitySet="tbl_Location" />
+          </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="EgitimKampi_EFTravelDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -70,6 +87,7 @@
           <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="CustomerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="CustomerSurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CustomerBalance" Type="Decimal" Precision="18" Scale="2" />
         </EntityType>
         <EntityType Name="tbl_Guide">
           <Key>
@@ -78,6 +96,7 @@
           <Property Name="GuideId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="GuideName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="GuideSurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="tbl_Location" Relationship="EgitimKampi_EFTravelDbModel.FK_tbl_Location_tbl_Guide" FromRole="tbl_Guide" ToRole="tbl_Location" />
         </EntityType>
         <EntityType Name="tbl_Location">
           <Key>
@@ -89,13 +108,31 @@
           <Property Name="Capacity" Type="Byte" />
           <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="DayNight" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="GuideId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="tbl_Guide" Relationship="EgitimKampi_EFTravelDbModel.FK_tbl_Location_tbl_Guide" FromRole="tbl_Location" ToRole="tbl_Guide" />
         </EntityType>
         <EntityContainer Name="EgitimKampi_EFTravelDbEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
           <EntitySet Name="tbl_Customer" EntityType="Self.tbl_Customer" />
           <EntitySet Name="tbl_Guide" EntityType="Self.tbl_Guide" />
           <EntitySet Name="tbl_Location" EntityType="Self.tbl_Location" />
+          <AssociationSet Name="FK_tbl_Location_tbl_Guide" Association="EgitimKampi_EFTravelDbModel.FK_tbl_Location_tbl_Guide">
+            <End Role="tbl_Guide" EntitySet="tbl_Guide" />
+            <End Role="tbl_Location" EntitySet="tbl_Location" />
+          </AssociationSet>
         </EntityContainer>
+        <Association Name="FK_tbl_Location_tbl_Guide">
+          <End Type="EgitimKampi_EFTravelDbModel.tbl_Guide" Role="tbl_Guide" Multiplicity="1" />
+          <End Type="EgitimKampi_EFTravelDbModel.tbl_Location" Role="tbl_Location" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tbl_Guide">
+              <PropertyRef Name="GuideId" />
+            </Principal>
+            <Dependent Role="tbl_Location">
+              <PropertyRef Name="GuideId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -116,6 +153,7 @@
           <EntitySetMapping Name="tbl_Customer">
             <EntityTypeMapping TypeName="EgitimKampi_EFTravelDbModel.tbl_Customer">
               <MappingFragment StoreEntitySet="tbl_Customer">
+                <ScalarProperty Name="CustomerBalance" ColumnName="CustomerBalance" />
                 <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
                 <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
                 <ScalarProperty Name="CustomerSurname" ColumnName="CustomerSurname" />
@@ -134,6 +172,7 @@
           <EntitySetMapping Name="tbl_Location">
             <EntityTypeMapping TypeName="EgitimKampi_EFTravelDbModel.tbl_Location">
               <MappingFragment StoreEntitySet="tbl_Location">
+                <ScalarProperty Name="GuideId" ColumnName="GuideId" />
                 <ScalarProperty Name="LocationId" ColumnName="LocationId" />
                 <ScalarProperty Name="City" ColumnName="City" />
                 <ScalarProperty Name="Country" ColumnName="Country" />

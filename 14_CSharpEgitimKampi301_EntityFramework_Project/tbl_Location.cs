@@ -20,5 +20,8 @@ namespace CSharpEgitimKampi301_EntityFramework_Project
         public Nullable<byte> Capacity { get; set; }
         public Nullable<decimal> Price { get; set; }
         public string DayNight { get; set; }
+        public int GuideId { get; set; }
+    
+        public virtual tbl_Guide tbl_Guide { get; set; }
     }
 }

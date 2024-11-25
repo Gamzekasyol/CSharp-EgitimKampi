@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EgitimKampi_EFTravelDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tbl_Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CustomerSurname" Type="nvarchar" MaxLength="50" />
+    <Property Name="CustomerBalance" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="tbl_Guide">
+    <Key>
+      <PropertyRef Name="GuideId" />
+    </Key>
+    <Property Name="GuideId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GuideName" Type="nvarchar" MaxLength="50" />
+    <Property Name="GuideSurname" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Location">
+    <Key>
+      <PropertyRef Name="LocationId" />
+    </Key>
+    <Property Name="LocationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+    <Property Name="Capacity" Type="tinyint" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="DayNight" Type="nvarchar" MaxLength="50" />
+    <Property Name="GuideId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_tbl_Location_tbl_Guide">
+    <End Role="tbl_Guide" Type="Self.tbl_Guide" Multiplicity="1" />
+    <End Role="tbl_Location" Type="Self.tbl_Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Guide">
+        <PropertyRef Name="GuideId" />
+      </Principal>
+      <Dependent Role="tbl_Location">
+        <PropertyRef Name="GuideId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EgitimKampi_EFTravelDbModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Customer" EntityType="Self.tbl_Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Guide" EntityType="Self.tbl_Guide" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Location" EntityType="Self.tbl_Location" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tbl_Location_tbl_Guide" Association="Self.FK_tbl_Location_tbl_Guide">
+      <End Role="tbl_Guide" EntitySet="tbl_Guide" />
+      <End Role="tbl_Location" EntitySet="tbl_Location" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
