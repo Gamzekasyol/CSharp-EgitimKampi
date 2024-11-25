@@ -36,12 +36,15 @@ Visual studio ortamında MsSql veri tabanına bağlanarak Crud işlemleri gerçe
 Bu projeyle birlikte 301 modülüne geçiş yapıldı ve bu kapsamda **Code First yapısı** ile **N katmanlı mimari** detaylı bir şekilde ele alındı. Ayrıca, **class yapıları** açıklanarak, **SOLID prensipleri** üzerinde duruldu ve **erişim belirleyiciler** hakkında önemli bilgiler aktarıldı.
 
 ## 📍Proje 12 
-Yukarıda 11. proje üzerine uygulanan yeni konulardır.Bu konular; **Cod First** yapısı çerçevesi ile **Entity Layer'da** tablolar arası ilişkiler kodda  nasıl oluşturulur, **Access Layer'da** veri tabanındaki tabloların nasıl oluşturulduğunu ve **app.config'e** veri tabanının erişim adresinin nasıl eklendiğini gördük.
+Yukarıda 11. proje üzerine uygulanan yeni konulardır.Bu konular; **Cod First** yapısı çerçevesi ile **Entity Layer'da** tablolar arası ilişkiler kodda  nasıl oluşturulur, **Access Layer'da** veri tabanındaki tabloların nasıl oluşturulduğunu ve **app.config'e** veri tabanının erişim adresinin nasıl eklendiğini gösterildi.
 
 ## 📍Proje 13
-13. derste işlenen konular 11 numaralı projenin içindedir. **enable-migrations** ve **update-database** komutlarını kullnarak Sql'de Code First yaklaşımı ile tablo oluşturduk. **Data Access Layer** altında **Abstract** klasörü oluşturduk. Bu klasörde **Crud** işlemlerini gerçekleştirmek için **Repository** tasarım desenini kullandık böylece merkezileştirilmiş bir yapı ile her entitiy için crud işlemi yazmak yerine hepsini bir yere bağladık.
+13. derste işlenen konular 11 numaralı projenin içindedir. **enable-migrations** ve **update-database** komutlarını kullanarak Sql'de Code First yaklaşımı ile tablo oluşturuldu. **Data Access Layer** altında **Abstract** klasörü oluşturuldu. Bu klasörde **Crud** işlemlerini gerçekleştirmek için **Repository** tasarım desenini kullanıldı, böylece merkezileştirilmiş bir yapı ile her entitiy için crud işlemi yazmak yerine hepsini bir yere bağlandı.
 
 ## 📍Proje 14
 Bu projede **Entity Framework** uygulaması yapıldı. Konu anlatılırken **ORM** nedir, **entity framework** nedir açılandı, **Ado.Net** ile olan farklarından, avantajlarından, dezavantajlarından bahsedildi. Projede **Database First** yaklaşımı kullanılarak windows form uygulaması ile database'in nasıl bağlanılacağı gösterildi.   
+
+## 📍Proje 15 
+Yapılan değişiklikler 14. projenin içindedir. Entity Framework metodlar konusu (toList, Add, Update, Delete, GetById) uygulama yapılarak anlatıldı. 
 
 
