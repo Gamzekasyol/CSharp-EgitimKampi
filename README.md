@@ -42,9 +42,14 @@ Yukarıda 11. proje üzerine uygulanan yeni konulardır.Bu konular; **Cod First*
 13. derste işlenen konular 11 numaralı projenin içindedir. **enable-migrations** ve **update-database** komutlarını kullanarak Sql'de Code First yaklaşımı ile tablo oluşturuldu. **Data Access Layer** altında **Abstract** klasörü oluşturuldu. Bu klasörde **Crud** işlemlerini gerçekleştirmek için **Repository** tasarım desenini kullanıldı, böylece merkezileştirilmiş bir yapı ile her entitiy için crud işlemi yazmak yerine hepsini bir yere bağlandı.
 
 ## 📍Proje 14
-Bu projede **Entity Framework** uygulaması yapıldı. Konu anlatılırken **ORM** nedir, **entity framework** nedir açılandı, **Ado.Net** ile olan farklarından, avantajlarından, dezavantajlarından bahsedildi. Projede **Database First** yaklaşımı kullanılarak windows form uygulaması ile database'in nasıl bağlanılacağı gösterildi.   
+Bu projede **Entity Framework** ile ilgili uygulama yapıldı. Konu anlatılırken **ORM** nedir, **entity framework** nedir açılandı, **Ado.Net** ile olan farklarından, avantajlarından, dezavantajlarından bahsedildi. Projede **Database First** yaklaşımı kullanılarak windows form uygulaması ile database'in nasıl bağlanılacağı gösterildi.   
 
 ## 📍Proje 15 
 Yapılan değişiklikler 14. projenin içindedir. Entity Framework metodlar konusu (toList, Add, Update, Delete, GetById) uygulama yapılarak anlatıldı. 
 
+## 📍Proje 16
+İşlenen konular 14. projenin içindedir. Bu derste Entity Framework Metodları pekiştirilmek adına bir tur projesi gerçekleştirildi. Bu projenin kodlarına 14. projede FrmLocation.cs dosyasının içinden erişebilirisiniz.
+
+## 📍Proje 17
+Bu derste Lınq Sorgular anlatıldı. Max, Count, Where, Select gibi metotlar ve sorgularla bir istatistik tablo hazırlandı. 14. projenin içinde FrmStatictics.cs dosyasının içinden kodlara ulaşabilirsiniz. Aşağıda tablonun görüntüsü yer almaktadır.  
 
