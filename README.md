@@ -54,3 +54,10 @@ Yapılan değişiklikler 14. projenin içindedir. Entity Framework metodlar konu
 Bu derste Lınq Sorgular anlatıldı. Max, Count, Where, Select gibi metotlar ve sorgularla bir istatistik tablo hazırlandı. 14. projenin içinde FrmStatictics.cs dosyasının içinden kodlara ulaşabilirsiniz. Aşağıda tablonun görüntüsü yer almaktadır.  
 
 ![image alt](https://github.com/Gamzekasyol/CSharp-EgitimKampi/blob/4b717adb70dd08a4d7d54464db4b22197a47825c/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-12-02%20022517.png)
+
+## 📍Proje 18
+11. projenin içerisinde DataAccessLayer katmanının altında Repositories Folder --> GenericRepository sınıfı eklendi. GenericRepository sınıfında oluşturulan metotların içerisi dolduruldu. EntityState komutu açılandı. EntityFramework Folder --> Ef sınıfları oluşturuldu.
+
+## 📍Proje 19
+Yapılan değişiklikler 11. projenin içerisindedir. DataBusiness Katmanına Abstract ve Concrate folderları ve bu folderlara classlar eklendi. Bu classlarda metotlar dolduruldu ve bazı validasyonlar eklendi. PresentationLayer katmanındaki FrmCategory formu dolduruldu.
+
