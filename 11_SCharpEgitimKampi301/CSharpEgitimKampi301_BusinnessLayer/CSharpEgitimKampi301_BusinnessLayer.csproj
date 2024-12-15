@@ -41,10 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Abstract\ICategoryServices.cs" />
+    <Compile Include="Abstract\ICustomerServices.cs" />
+    <Compile Include="Abstract\IGenericServices.cs" />
+    <Compile Include="Abstract\IOrderServices.cs" />
+    <Compile Include="Abstract\IProductServices.cs" />
+    <Compile Include="Concrete\CategoryManager.cs" />
+    <Compile Include="Concrete\CustomerManager.cs" />
+    <Compile Include="Concrete\OrderManager.cs" />
+    <Compile Include="Concrete\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSahrpEgitimKampi301_EntityLayer\CSahrpEgitimKampi301_EntityLayer.csproj">
+      <Project>{CD87A9EB-F384-4C0B-834E-C6D7277B1637}</Project>
+      <Name>CSahrpEgitimKampi301_EntityLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSharpEgitimKampi_DataAccessLayer\CSharpEgitimKampi_DataAccessLayer.csproj">
       <Project>{2594b2be-5605-4974-b58d-5d0d20d272f4}</Project>
       <Name>CSharpEgitimKampi_DataAccessLayer</Name>
