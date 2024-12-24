@@ -61,3 +61,9 @@ Bu derste Lınq Sorgular anlatıldı. Max, Count, Where, Select gibi metotlar ve
 ## 📍Proje 19
 Yapılan değişiklikler 11. projenin içerisindedir. DataBusiness Katmanına Abstract ve Concrate folderları ve bu folderlara classlar eklendi. Bu classlarda metotlar dolduruldu ve bazı validasyonlar eklendi. PresentationLayer katmanındaki FrmCategory formu dolduruldu.
 
+## 📍Proje 20
+İşlnen konular proje 11'in içindedir. **Dependency Injection(DI)**'nın ne olduğu açıklanmış, makaleler gösterilmiş ve proje üzerinde anlatılmıştır. Ayrıca **Presentation** katmanında oluşturduğumuz **FrmCategory** isimli formda ki butonların işlevleri yazılmıştır(Örneğin listele butonunun kodlarını yazdık). 
+
+## 📍Proje 21
+İşlnen konular proje 11'in içindedir. Bu derse önceki dersin tekrarı niteliğinde uygulama yapılmıştır. **FrmProduct** isimli forma butonlar eklenip işlevleri yazılmıştır. Burada farlı olarak 2 listeleme butonu kullanılmıştır. Çünkü listleme esnasında tablolar bağlı olduğu için istemediğimiz ya da doğru şekilde gelmeyen veriler bulunmaktadır. Bunun için bu derste **Entity'e özgü metot nasıl yazılır** gösterilmiştir.   
+
