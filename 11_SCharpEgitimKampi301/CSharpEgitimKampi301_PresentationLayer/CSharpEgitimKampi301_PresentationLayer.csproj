@@ -62,10 +62,19 @@
     <Compile Include="FrmCategory.Designer.cs">
       <DependentUpon>FrmCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduct.Designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCategory.resx">
       <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,9 +100,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSahrpEgitimKampi301_EntityLayer\CSahrpEgitimKampi301_EntityLayer.csproj">
+      <Project>{CD87A9EB-F384-4C0B-834E-C6D7277B1637}</Project>
+      <Name>CSahrpEgitimKampi301_EntityLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSharpEgitimKampi301_BusinnessLayer\CSharpEgitimKampi301_BusinnessLayer.csproj">
       <Project>{ed9feade-790c-4471-b074-f351e4a5bb76}</Project>
       <Name>CSharpEgitimKampi301_BusinnessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitimKampi_DataAccessLayer\CSharpEgitimKampi_DataAccessLayer.csproj">
+      <Project>{2594B2BE-5605-4974-B58D-5D0D20D272F4}</Project>
+      <Name>CSharpEgitimKampi_DataAccessLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
