@@ -1,0 +1,17 @@
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\SCharpEgitimKampi301_501.exe.config
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\SCharpEgitimKampi301_501.exe
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\SCharpEgitimKampi301_501.pdb
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\Dapper.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\EntityFramework.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\Dapper.xml
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\EntityFramework.xml
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\obj\Debug\CSharpEgitimKampi301_501.csproj.AssemblyReference.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\obj\Debug\SCharpEgitimKampi301_501.Form1.resources
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\obj\Debug\SCharpEgitimKampi301_501.Properties.Resources.resources
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\obj\Debug\CSharpEgitimKampi301_501.csproj.GenerateResource.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\obj\Debug\CSharpEgitimKampi301_501.csproj.CoreCompileInputs.cache
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\obj\Debug\CSharpEgitimKampi301_501.csproj.CopyComplete
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\obj\Debug\SCharpEgitimKampi301_501.exe
+C:\Users\Gamze\OneDrive\Masaüstü\C#EğitimKampı_Dersler\SCharpEgitimKampi301_501\obj\Debug\SCharpEgitimKampi301_501.pdb
