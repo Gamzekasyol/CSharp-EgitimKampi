@@ -67,3 +67,10 @@ Yapılan değişiklikler 11. projenin içerisindedir. DataBusiness Katmanına Ab
 ## 📍Proje 21
 İşlnen konular proje 11'in içindedir. Bu derse önceki dersin tekrarı niteliğinde uygulama yapılmıştır. **FrmProduct** isimli forma butonlar eklenip işlevleri yazılmıştır. Burada farlı olarak 2 listeleme butonu kullanılmıştır. Çünkü listleme esnasında tablolar bağlı olduğu için istemediğimiz ya da doğru şekilde gelmeyen veriler bulunmaktadır. Bunun için bu derste **Entity'e özgü metot nasıl yazılır** gösterilmiştir.   
 
+## 📍Proje 22
+Kamp sürecinin **501 modülü** olan **Dapper** konusuna giriş yapıldı. Dapper nedir, neden kullanılır açıklandı. Sql'de dapper için yeni bir veri tabanı oluşturuldu. Projeye folderlar ve classlar eklendi. bu sırada **Dto** konusundan behsedildi. Classların neden oluşturuldukarı açılandı. **Asenkron Programlama** ve **asenkron metotların** ne olduğu neden kullanıldığı açıklandı ve örnekler verildi. Projede asenkron metotlar kullanılmıştır.
+
+## 📍Proje 23
+**Dapper** konusunda devam edilmiştir. İlk olarak veri tabanı ile proje bağlanmıştır. Önceki derste tanımlanan metotların işlevleri yazılmıştır. Butonlar gerekli işlevlerine göre bu metotlar ile bağlanmıştır. Proje böylece tamamlanmıştır. Bu projede dapper kullanarak veri tabanına **ekleme, silme, güncelleme, listeleme ve ıd'ye göre getirme** işlemleri gerçekleştirilmiştir. Son olarak bir ürünün toplam adetini, en pahalısını getirme vb gibi istatistiksel bilgileri nasıl queryler yazarak sonuçlar alınabileceği ile ilgili örnek yapılmıştır. 
+
+
