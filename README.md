@@ -73,4 +73,8 @@ Kamp sürecinin **501 modülü** olan **Dapper** konusuna giriş yapıldı. Dapp
 ## 📍Proje 23
 **Dapper** konusunda devam edilmiştir. İlk olarak veri tabanı ile proje bağlanmıştır. Önceki derste tanımlanan metotların işlevleri yazılmıştır. Butonlar gerekli işlevlerine göre bu metotlar ile bağlanmıştır. Proje böylece tamamlanmıştır. Bu projede dapper kullanarak veri tabanına **ekleme, silme, güncelleme, listeleme ve ıd'ye göre getirme** işlemleri gerçekleştirilmiştir. Son olarak bir ürünün toplam adetini, en pahalısını getirme vb gibi istatistiksel bilgileri nasıl queryler yazarak sonuçlar alınabileceği ile ilgili örnek yapılmıştır. 
 
+## 📍Proje 24
+**MongoDb** konusuna 601 modülüne giriş yapıldı. Nedir, neden kullanılır, avantajları nelerdir konuları açıklandı. Projede **MongoDbconnection** classında veri tabanı ile bağlantısını sağlayıp bir collection oluşturuldu. Diğer folderlar ve classlar oluşturuldu ve UI tasarımı yapıldı.
 
+## 📍Proje 25
+MongoDb konusuna devam edildi. Ekleme, silme, güncelleme, listeleme, ıd'ye göre getirme işlemleri **CustomerOperations** classında yapıldı. Arayüzdeki butonlar bu classta yazılan metotlar ile bağlandı.
