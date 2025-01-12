@@ -78,3 +78,10 @@ Kamp sürecinin **501 modülü** olan **Dapper** konusuna giriş yapıldı. Dapp
 
 ## 📍Proje 25
 MongoDb konusuna devam edildi. Ekleme, silme, güncelleme, listeleme, ıd'ye göre getirme işlemleri **CustomerOperations** classında yapıldı. Arayüzdeki butonlar bu classta yazılan metotlar ile bağlandı.
+
+## 📍Proje 26
+**PostgreSql** konusuna giriş yapıldı. PostgreSql nedir, ver tabanında tablolar nasıl oluşturulur gösterildi. 601 modülünün içindeki FrmCustomers formu oluşturuldu ve postgreSql veri tabanında ekleme, silme, güncelleme, listeleme işlemleri gerçekleştirildi.
+
+## 📍Proje 27
+**PostgreSql** konusuna devam edildi. Bu derste veri tabanında ilişkili tablo nasıl kurulur göterildi.
+![image alt](https://github.com/Gamzekasyol/CSharp-EgitimKampi/blob/3e46bb26db421ac8af5c61fc5d7126defb13506d/postgreSql.png)
