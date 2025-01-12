@@ -68,5 +68,10 @@ namespace CSharpEgitimKampi601
             Customer customer = customerOperations.GetCustomerById(id);
             dataGridView1.DataSource = new List<Customer> { customer };
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
