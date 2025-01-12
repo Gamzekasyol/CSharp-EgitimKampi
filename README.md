@@ -83,5 +83,5 @@ MongoDb konusuna devam edildi. Ekleme, silme, güncelleme, listeleme, ıd'ye gö
 **PostgreSql** konusuna giriş yapıldı. PostgreSql nedir, ver tabanında tablolar nasıl oluşturulur gösterildi. 601 modülünün içindeki FrmCustomers formu oluşturuldu ve postgreSql veri tabanında ekleme, silme, güncelleme, listeleme işlemleri gerçekleştirildi.
 
 ## 📍Proje 27
-**PostgreSql** konusuna devam edildi. Bu derste veri tabanında ilişkili tablo nasıl kurulur göterildi.
+**PostgreSql** konusuna devam edildi. Bu derste veri tabanında ilişkili tablo nasıl kurulur göterildi. FrmDepartment ve FrmEmployee fromları eklendi. İşlemler yapıldı.
 ![image alt](https://github.com/Gamzekasyol/CSharp-EgitimKampi/blob/3e46bb26db421ac8af5c61fc5d7126defb13506d/postgreSql.png)
